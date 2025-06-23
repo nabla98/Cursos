@@ -49,8 +49,8 @@ killall <nombre-proceso>
 
 ### Links utiles
 
-![https://www.tecmint.com/linux-process-management/](https://www.tecmint.com/linux-process-management/)
+*[https://www.tecmint.com/linux-process-management/](https://www.tecmint.com/linux-process-management/)*
 
-![https://www-uxsup.csx.cam.ac.uk/courses/moved.Building/signals.pdf](https://www-uxsup.csx.cam.ac.uk/courses/moved.Building/signals.pdf)
+*[https://www-uxsup.csx.cam.ac.uk/courses/moved.Building/signals.pdf](https://www-uxsup.csx.cam.ac.uk/courses/moved.Building/signals.pdf)*
 
 
