@@ -47,16 +47,18 @@ El uso de `sudo` como superusuario temporal ofrece ventajas frente al uso direct
 
 ### Ventajas de uso de sudo
 
-* Acceso controlado: Los usuarios no necesitan conocer la contraseña de root, solo requieren su contraseña para ejecutar comandos con privilegios de root.
-* Seguridad mejorada: `sudo` permite rastrear los comandos ejecutados, generando logs que son vitales para la auditoría y control de accesos.
-* Prevención de vulnerabilidades: Dado que los permisos de administrador se conceden temporalmente y por sesión.
-* Facilidad para revocar permisos: Si u usuario ya no necesita permisos de administración, puedes simplemente quitarlo del grupo sudo, evitando potenciales escaladas de privilegios no autorizadas.
+* **Acceso controlado:** Los usuarios no necesitan conocer la contraseña de root, solo requieren su contraseña para ejecutar comandos con privilegios de root.
+* **Seguridad mejorada:** `sudo` permite rastrear los comandos ejecutados, generando logs que son vitales para la auditoría y control de accesos.
+* **Prevención de vulnerabilidades:** Dado que los permisos de administrador se conceden temporalmente y por sesión.
+* **Facilidad para revocar permisos:** Si u usuario ya no necesita permisos de administración, puedes simplemente quitarlo del grupo sudo, evitando potenciales escaladas de privilegios no autorizadas.
 
 ### Recomendaciones y mejores prácticas
 
-**1. Limita los usuarios con acceso sudo:**Evita tener demasiados usuarios como administradores para prevenir vulnerabilidad.
+**1. Limita los usuarios con acceso sudo:** Evita tener demasiados usuarios como administradores para prevenir vulnerabilidad.
+
 **2. Revoca los accesos inactivos:** Si un usuario deja de necesitar permisos administrativos, retíralo del grupo sudo.
-**3. Monitoreo constante:**Mantenerte atento a los logs generados por los comandos `sudo` para identificar actividades sospechosas.
+
+**3. Monitoreo constante:** Mantenerte atento a los logs generados por los comandos `sudo` para identificar actividades sospechosas.
 
 
 
