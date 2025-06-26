@@ -86,6 +86,18 @@ print("Hola mundo!")
 sudo vim /etc/fstab
 ```
 
+2. Añade la siguiente línea:
+```
+/dev/sdb1    /mnt/scripts    ext4    defaults    0    0
+```
+
+3. Reinicia el sistema para aplicar los cambios:
+```
+sudo reboot
+```
+
+Verificar el montaje de nuevo al iniciar sesión, corroborando que el punto de montaje contenga los archivos esperados.
+
 
 
 
