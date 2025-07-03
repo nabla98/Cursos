@@ -219,8 +219,83 @@ En distribuciones basadas en Debian, los non-free repositories son paquetes de s
 ![distribuciones-linux](./distribuciones-linux.png)
 
 
+## 8 - Ubicación y gestión de servidores: On-premise, Cloud e Hibrido
 
+En el mundo actual, donde la tecnología y la nube dominan, hay varios entornos donde pueden alojarse tus servidores, estos incluyen el ecosistema “on-premise”, las nubes publicas y privadas, y configuraciones hibridas.
 
+### On-premise
+
+Un entorno “on-premise” (en las instalaciones) implica que todo el hardware y software del servidor es alojado y mantenido por una organización. Esto significa que se cuenta con sistemas administradores que se encargan desde conectar dispositivos hasta configurar servicios. Generalmente este entorno es preferido por compañías tradicionales o instituciones gubernamentales que requieren un control total y directo de sus servidores, principalmente por razones de seguridad. Ventajas:
+
+* Control total sobre el hardware y software.
+* Adecuado para organizaciones que requieren alta seguridad y privacidad.
+* No depende de servicios externos.
+
+### Cloud
+
+Es básicamente el uso de la infraestructura y arquitectura que ya ofrece otra empresa. Los administradores no necesitan preocuparse por los aspectos físicos del hardware. Existen dos tipos de nubes.
+
+### Nube pública
+
+Las nubes públicas son ofrecidas por proveedores como Google Cloud Platform, Azure y Amazon, estos servicios permiten a las organizaciones acceder a recursos de hardware y software sin necesidad de comprarlos ni mantenerlos. Ventajas:
+
+* No es necesario invertir en infraestructura física
+* Escalabilidad y flexibilidad de recursos
+* Menor costo inicial y mantenimiento
+
+### Nube privada
+
+Es un entorno en el que todos los recursos están dedicados exclusivamente a una organización, esto ofrece un nivel de seguridad y privacidad superior, ya que los recursos no se comparten con ninguna otra entidad. Ventajas:
+
+* Recursos dedicados exclusivamente.
+* Mayor control y seguridad.
+* Personalización según necesidades específicas de la organización.
+
+### Hibrido
+
+El entorno hibrido combina las características del on-premise y la nube. Algunas organizaciones optan por mantener parte de su infraestructura en sus instalaciones mientras que otras utilizan servicios en la nube para el almacenamiento o procesamiento adicional. Ventajas:
+
+* Flexibilidad para utilizar lo mejor de ambos mundos.
+* Permite optimizar costos y recursos.
+* Adecuado para organizaciones que experimentan variaciones en sus necesidades de recursos
+
+### ¿Qué es un DataCenter?
+
+La gran mayoría de los servidores modernos están alojados en grandes instalaciones llamadas DataCenters. Estos centros están equipados con todos los recursos necesarios y personal altamente capacitado para gestionar la infraestructura y servicios. Beneficios de los DataCenters:
+
+* Alta eficiencia en la gestión y operación de servidores.
+* Mejora de la capacidad de enfriamiento.
+* Centralización y estandarización de servicios.
+
+## 9 - Instalación de servidores Linux y virtualización básica
+
+### Instalación directa
+
+Es instalar un sistema operativo directamente sobre el hardware físico. Lo fundamental es que este método utiliza el 100% de los recursos asignados, como memoria RAM y potencia de procesador para un máximo rendimiento. Esto puede hacerse mediante el uso de:
+
+* **Imágenes ISO:** Archivos que contienen la copia de un sistema operativo completo.
+* **UBS boteable:** Dispositivos USB configurados para ejecutar e instalar sistemas operativos al conectarse al hardware.
+* **Descargas de red:** Permiten la instalación de sistemas operativos directamente desde servidores de red.
+
+### Virtualización en los Data Centers
+
+En las instalaciones que contienen grandes cantidades de hardware, organizados en estructuras llamadas racks, la virtualización se vuelve esencial para maximizar el uso de este hardware mediante el uso de hypervisor.
+
+### Hypervisor
+
+Es un software que permite dividir los recursos de una maquina física en múltiples maquinas virtuales. Esto es ideal para crear entornos de prueba o correr diferentes sistemas operativos sin necesidad de hardware adicional.
+
+* **Hypervisors tipo 1 (bare metal):** Corren directamente sobre el hardware, sin necesitar un sistema operativo entre el hardware y el hypervisor. Son eficientes en el uso de recursos y típicamente utilizados en entornos empresariales.
+* **Hypervisors tipo 2:** Se instalan sobre un sistema operativo existente, como Linux, Windows o Mac. Son más accesibles y comúnmente usados para propósitos educativos y de pruebas.
+
+### Diferencias entre contenedores y máquinas virtuales
+
+* **Maquinas virtuales (VMs):** Tienen asignación de recursos físicos directamente, permitiendo gran personalización y aislamiento del entorno.
+* **Contenedores:** Comparten muchos recursos del sistema operativo anfitrión, son mas ligeros y rápidos, ideales para ejecutar aplicaciones en ambientes de microservicios y tecnología Docker.
+
+![virtualization](./virtualization.png)
+
+![hypervisor](./hypervisor.png)
 
 
 
