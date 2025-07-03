@@ -52,3 +52,26 @@ Roles
 
 **Cloud Engineers:** Administran servidores y servicios directamente en la nube.
 
+
+## 3 - Historia y tipos de servidores
+
+### ¿Qué es un servidor?
+
+Un servidor es un conjunto de recursos tecnológicos, tanto en términos de software como de hardware, diseñado para cumplir con uno o varios propósitos específicos. Estos recursos están destinados a responder a las peticiones de los clientes, proporcionando respuestas que cumplen con sus expectativas y necesidades tecnológicas.
+
+### Evolución de los servidores
+
+Originalmente la arquitectura prevaleciente era la “mainframe terminal”. Una computadora central (el mainframe) conectaba múltiples terminales conocidas como DOM terminals, las cuales no poseían ni disco duro ni RAM y dependían completamente del mainframe para cualquier operación.
+
+
+
+
+
+
+
+
+
+
+
+
+
