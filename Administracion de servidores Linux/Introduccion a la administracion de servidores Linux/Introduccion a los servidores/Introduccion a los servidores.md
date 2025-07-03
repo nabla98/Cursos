@@ -63,7 +63,13 @@ Un servidor es un conjunto de recursos tecnológicos, tanto en términos de soft
 
 Originalmente la arquitectura prevaleciente era la “mainframe terminal”. Una computadora central (el mainframe) conectaba múltiples terminales conocidas como DOM terminals, las cuales no poseían ni disco duro ni RAM y dependían completamente del mainframe para cualquier operación.
 
+![DOM terminal](./DOM-terminal.png)
 
+### Funcionamiento de los servidores modernos
+
+Casos modernos como GeForce de NVIDIA ilustran el poder actual de los servidores. Este servicio permite que los usuarios disfruten de videojuegos sin poseer hardware avanzado en casa. Todo el procesamiento se realiza en servidores remotos y el resultado se transmite al usuario a través de internet. Este servicio es posible gracias a la arquitectura de fibra óptica y la potencia de los datacenters actuales.
+
+![modern server](./modern-server.png)
 
 
 
