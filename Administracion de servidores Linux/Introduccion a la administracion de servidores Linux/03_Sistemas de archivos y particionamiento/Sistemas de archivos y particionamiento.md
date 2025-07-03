@@ -306,6 +306,12 @@ Son excelentes para logs al permitir la redireccion del standard output de un pr
 ![tipos-archivos](./images/tipos-archivos.png)
 ![resumen-tipos-archivos](./images/resumen-tipos-archivos.png)
 
+### Links útiles
+
+[https://www.cbtnuggets.com/blog/certifications/open-source/linux-hard-links-versus-soft-links-explained](https://www.cbtnuggets.com/blog/certifications/open-source/linux-hard-links-versus-soft-links-explained)
+
+
+
 
 
 
