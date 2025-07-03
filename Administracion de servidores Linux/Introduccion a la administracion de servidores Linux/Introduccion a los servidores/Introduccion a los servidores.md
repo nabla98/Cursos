@@ -64,13 +64,13 @@ Un servidor es un conjunto de recursos tecnológicos, tanto en términos de soft
 
 Originalmente la arquitectura prevaleciente era la “mainframe terminal”. Una computadora central (el mainframe) conectaba múltiples terminales conocidas como DOM terminals, las cuales no poseían ni disco duro ni RAM y dependían completamente del mainframe para cualquier operación.
 
-![DOM terminal](./DOM-terminal.png)
+![DOM terminal](./images/DOM-terminal.png)
 
 ### Funcionamiento de los servidores modernos
 
 Casos modernos como GeForce de NVIDIA ilustran el poder actual de los servidores. Este servicio permite que los usuarios disfruten de videojuegos sin poseer hardware avanzado en casa. Todo el procesamiento se realiza en servidores remotos y el resultado se transmite al usuario a través de internet. Este servicio es posible gracias a la arquitectura de fibra óptica y la potencia de los datacenters actuales.
 
-![modern server](./modern-server.png)
+![modern server](./images/modern-server.png)
 
 ### Tipos de servidores
 
@@ -162,9 +162,9 @@ También conocida como la capa de utilidades, es el nivel mas cercano al usuario
 
 La administración de esta capa es crucial ya que aquí se instala y ejecuta el software que define la experiencia de usuario y la funcionalidad del sistema.
 
-![arquitectura-linux](./arquitectura-linux.png)
+![arquitectura-linux](./images/arquitectura-linux.png)
 
-![arquitectura-detalle](./arquitectura-detalle.png)
+![arquitectura-detalle](./images/arquitectura-detalle.png)
 
 
 ## 6 - Historia del software libre y Open Source
@@ -216,7 +216,7 @@ En distribuciones basadas en Debian, los non-free repositories son paquetes de s
 * **Rolling in release:** Estas distribuciones incorporan cambios de software tan pronto como están disponibles, lo que puede resultar en versiones inestables con bugs. Ejemplo son Fedora Server y CentOS Stream.
 * **Fixed Release:** Estas distribuciones tienden a ser mas estables, liberando actualizaciones solo después de pruebas exhaustivas. Ejemplo: Red Hat Enterprise Linux.
 
-![distribuciones-linux](./distribuciones-linux.png)
+![distribuciones-linux](./images/distribuciones-linux.png)
 
 
 ## 8 - Ubicación y gestión de servidores: On-premise, Cloud e Hibrido
@@ -293,9 +293,9 @@ Es un software que permite dividir los recursos de una maquina física en múlti
 * **Maquinas virtuales (VMs):** Tienen asignación de recursos físicos directamente, permitiendo gran personalización y aislamiento del entorno.
 * **Contenedores:** Comparten muchos recursos del sistema operativo anfitrión, son mas ligeros y rápidos, ideales para ejecutar aplicaciones en ambientes de microservicios y tecnología Docker.
 
-![virtualization](./virtualization.png)
+![virtualization](./images/virtualization.png)
 
-![hypervisors](./hypervisors.png)
+![hypervisors](./images/hypervisors.png)
 
 
 
