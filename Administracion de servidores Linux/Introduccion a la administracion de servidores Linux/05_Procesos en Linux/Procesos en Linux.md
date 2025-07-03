@@ -202,7 +202,7 @@ Para interactuar con **SystemD**, utilizamos **SyswtemCTL** (System Control) que
 ### Crear un configurar un demonio personalizado
 En el siguiente ejemplo vamos a implementar un scriot de Python que funcione como un logger básico, registrando la fecha actual cada segundo en un archivo.
 
-```
+```python
 import time
 from datetime import datetime
 
@@ -368,12 +368,3 @@ Una limitante de los cronjobs es que no verifican el estado de los scripts que e
 [https://crontab.guru/examples.html](https://crontab.guru/examples.html)
 
 [https://www.thegeekdiary.com/10-useful-cron-examples-to-schedule-jobs-in-linux/#google_vignette](https://www.thegeekdiary.com/10-useful-cron-examples-to-schedule-jobs-in-linux/#google_vignette)
-
-
-
-
-
-
-
-
-
