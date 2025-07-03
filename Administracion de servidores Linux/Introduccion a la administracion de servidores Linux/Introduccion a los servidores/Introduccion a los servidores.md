@@ -164,11 +164,59 @@ La administración de esta capa es crucial ya que aquí se instala y ejecuta el 
 
 ![arquitectura-linux](./arquitectura-linux.png)
 
+![arquitectura-detalle](./arquitectura-detalle.png)
 
 
+## 6 - Historia del software libre y Open Source
+
+Comienza en la década de 1980 con un incidente inesperado que desencadena un movimiento global, es aquí donde entra en juego Richard Stallman, un ingeniero del MIT cuya experiencia con una impresora Xerox cambiaría el rumbo del desarrollo de software.
+
+Richard Stallman enfrentó un problema común con impresoras: la incapacidad de manejar múltiples solicitudes de impresión al mismo tiempo. Había resuelto este problema previamente con impresoras de otros fabricantes creando un software capaz de encodar de manera concurrente, pero su impresora Xerox venía con software precompilado sin acceso al código fuente.
+
+Esto lo inspiró a crear en 1983 el sistema operativo GNU, que promovía la accesibilidad y modificación del código fuente por cualquier persona. En 1985 fundó la Free Software Foundation, una organización que define y defiende las cuatro libertades esenciales del software libre:
+
+1.	**Ejecutar el programa:** Libertad para cualquier usuario de acceder y ejecutar el software,
+2.	**Estudiar y modificar:** Acceso al código fuente para su estudio y modificación acorde las necesidades individuales.
+3.	**Redistribuir:** Capacidad de compartir copias del software modificado
+4.	**Distribuir versiones modificadas:** Posibilidad de compartir copias de sus versiones modificadas, permitiendo una mayor colaboración comunitaria.
 
 
+### Linux y el software libre
 
+En 1990, Linus Torvalds compartió un post anunciando su proyecto de un kernel similar a UNIX, como un hobby. Para 1993 Linux se consolidó como software libre, transformándose en el corazón de numerosos sistemas operativos. En conjunto, GNU y Linux fomentaron un ecosistema donde el software se desarrollaba de manera abierta y colaborativa.
+
+### Diferencias entre Open Source y Software Libre
+
+El software libre se centra en las libertades éticas y filosóficas, mientras tanto, el open source adopta un enfoque pragmático incentivando la mejora del software a través de la colaboración abierta pero con ciertas limitaciones. Mientras que el software libre asegura las cuatro libertades propuestas por la Free Software Foundation, el open source permite acceso al código para que los usuarios lo mejoren sin garantizar la redistribución o comercialización. Esto permite que las empresas compartan código sin comprometer completamente su propiedad intelectual.
+Ejemplos de softwares Open Source destacados en la industria son Blender, OBS y React.js
+
+
+## 7 - Distribuciones Linux y UNIX: Comparación y características
+
+### Distribuciones de un sistema operativo
+
+Se refiere a una versión especifica de un sistema que utiliza el kernel de Linux o UNIX. Estas distribuciones varían principalmente en tres aspectos: el formato de discos utilizados al crear el sistema, el manejador de paquetes que facilita la instalación y desinstalación del software, y su popularidad en la comunidad.
+
+### Distribuciones más populares
+
+* **Ubuntu Server:** Una de las distribuciones de servidores mas conocidas y populares, derivada de Debian. Ambas comparten arquitectura y un sistemas manejador de paquetes similar aunque presentan diferencias en las políticas sobre qué software instalar.
+* **Red Hat Enterprise Linux (RHEL):** Conocida simplemente como “Red”, es una distribución de pago que ofrece soporte extenso a empresas. Se destaca por su seguridad y fiabilidad, estando dedicada principalmente a uso empresarial.
+* **FreeBSD:** Es una distribución basada en UNIX, no en Linux. Se utiliza principalmente en servidores y su núcleo se basa en el antiguo sistema operativo UNIX.
+
+### Soporte a largo plazo (LTS)
+
+Long term Support se refiere a distribuciones que ofrecen soporte extendido, garantizando alrededor de 5 años de actualizaciones y mantenimiento. Ejemplo: versiones especificas de Ubuntu y Debian.
+
+### Non-free Repository
+
+En distribuciones basadas en Debian, los non-free repositories son paquetes de software cuya licencia no ha sido aprobada por los lineamientos de la Debian Free Software Foundation, implica que no garantizan las libertades del software libre. Es fundamental para instalar software especializado como drivers de NVIDIA. En resumen, son paquetes con licencias externas a las aceptadas por Debian.
+
+### Actualización de distribucionesu
+
+* **Rolling in release:** Estas distribuciones incorporan cambios de software tan pronto como están disponibles, lo que puede resultar en versiones inestables con bugs. Ejemplo son Fedora Server y CentOS Stream.
+* **Fixed Release:** Estas distribuciones tienden a ser mas estables, liberando actualizaciones solo después de pruebas exhaustivas. Ejemplo: Red Hat Enterprise Linux.
+
+![distribuciones-linux](./distribuciones-linux.png)
 
 
 
