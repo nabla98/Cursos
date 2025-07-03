@@ -295,7 +295,7 @@ Es un software que permite dividir los recursos de una maquina física en múlti
 
 ![virtualization](./virtualization.png)
 
-![hypervisor](./hypervisor.png)
+![hypervisors](./hypervisors.png)
 
 
 
