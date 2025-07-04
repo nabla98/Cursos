@@ -1,4 +1,6 @@
-# Gestion de usuarios y grupos en Linux
+# Grupos y usuarios
+
+## 1 - Gestion de usuarios y grupos en Linux
 
 ## Introduccion
 
@@ -25,15 +27,36 @@ Contiene informacion relevante sobre cada usuario del sistema.
 nombre:contraseña:userID:groupID:gecos:directorio_home:shell_inicio
 ```
 
-    * Nombre: Identificador del usuario.
-    * Contraseña: Representada por una 'X', ya que no se almacena en texto plano.
-    * UserID y GroupID: Identificadores únicos.
-    * Gecos: Información adicional sobre el usuario, como nombre completo y contacto.
-    * Directorio Home: Ruta personal del usuario.
-    * Shell de preferencia: La shell que se ejecuta al iniciar sesión, como bash o zsh.
+ * Nombre: Identificador del usuario.
+ * Contraseña: Representada por una 'X', ya que no se almacena en texto plano.
+ * UserID y GroupID: Identificadores únicos.
+ * Gecos: Información adicional sobre el usuario, como nombre completo y contacto.
+ * Directorio Home: Ruta personal del usuario.
+ * Shell de preferencia: La shell que se ejecuta al iniciar sesión, como bash o zsh.
+
+### Archivo `/etc/shadow`
+
+La seguridad de las password es gestionada a traves del archivo `shadow` que las almacena en forma cifrada.
+
+* **Cifrado avanzado:** Gracias a algoritmos de hash, las password se almacenan sin posibiliad de ser leidas directamente.
+* **Indicadores especiales:**
+
+    * **Asterisco (*):** Indica que el usuario nunca ha tenido una password
+  
+    * **Signo admiracion (!):** Usuario bloqueado.
+
+### ¿Qué son los grupos en Linux?
+
+Son uan herramienta para controlar permisos colectivos entre varios usuarios:
+* **Acceso compartido:** A documentos y directorios entre usuarios del mismo grupo.
+* **Integracion con sevicios:** Servicio externos como Docker o Postgres utilizan grupos para gestionar permisos de ejecucion.
+
+### Link utiles
+
+[https://www.redhat.com/en/blog/linux-gecos-demystified#:~:text=In%20the%20dark%20ages%20of,Comprehensive%20Operating%20System%20(GCOS).](https://www.redhat.com/en/blog/linux-gecos-demystified#:~:text=In%20the%20dark%20ages%20of,Comprehensive%20Operating%20System%20(GCOS).)
 
 
-
+## 2 - Manejo de usuarios en Linux
 
 
 
